@@ -7,6 +7,7 @@ exports.run = function(input) {
     console.log("sier", number.length)
     for(var i = 0; i < number.length; i++){
       res = res + ("The value of " + value[i] + " is " + number[i])
+      //l'erreur est sur le if je n'ai pas eu le temps de la corriger
       if(i = number.length - 1){
         res = res + "."
       }else{
